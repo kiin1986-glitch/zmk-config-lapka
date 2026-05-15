@@ -88,16 +88,16 @@
             bindings = <
 &kp Q        &kp W        &kp F               &kp P          &kp B        &kp J        &kp L          &mt LBKT U            &kp Z        &mt SLASH QUESTION
 &mt SQT A    &hml LALT R  &mt LEFT_CONTROL S  &hml LSHIFT T  &hml LGUI G  &hmr RGUI M  &hmr LSHIFT N  &hmr RIGHT_CONTROL E  &hmr LALT I  &mt SEMI O
-&mt MINUS Y  &kp X        &kp C               &kp D          &kp V        &kp K        &kp H          &kp COMMA             &kp DOT      &mt AMPERSAND LS(N0)
+&mt MINUS Y  &kp X        &kp C               &kp D          &kp V        &kp K        &kp H          &kp COMMA             &kp DOT      &mt LS(N7) LS(N0)
                           &kp BSPC            &lt NAV TAB    &kp ESC      &kp DEL      &lt 3 SPACE    &lt 2 ENTER
             >;
         };
 
         navigation_layer {
             bindings = <
-&kp TAB         &kp LS(N2)  &kp UP      &kp DOLLAR     &kp EXCLAMATION  &mt RS(GRAVE) RS(N6)  &kp CARET             &kp LS(RIGHT_BRACKET)  &kp LC(R)          &tabber
-&kp HOME        &kp LEFT    &kp DOWN    &kp RIGHT      &kp END          &mt BACKSLASH SLASH   &sk LS(LEFT_BRACKET)  &sk LS(RIGHT_BRACKET)  &sk PIPE           &none
-&kp LEFT_SHIFT  &kt AT      &kp LS(N5)  &kp BACKSLASH  &kp LS(MINUS)    &kp LC(LEFT_BRACKET)  &kp LS(N9)            &kp LS(N0)             &kp RIGHT_BRACKET  &kp RIGHT_SHIFT
+&kp TAB         &kp RA(Q)   &kp UP      &kp DOLLAR     &kp EXCLAMATION  &mt LS(GRAVE) GRAVE    &kp CARET   &kp LS(RIGHT_BRACKET)  &kp LC(R)            &tabber
+&kp HOME        &kp LEFT    &kp DOWN    &kp RIGHT      &kp END          &kp NON_US_BSLH        &kp RA(N7)  &kp RA(N0)             &kp LS(NON_US_BSLH)  &none
+&kp LEFT_SHIFT  &kt AT      &kp LS(N5)  &kp BACKSLASH  &kp LS(MINUS)    &kp RA(N8)             &kp LS(N8)  &kp LS(N9)             &kp RA(N9)           &kp RIGHT_SHIFT
                             &trans      &trans         &trans           &trans                &trans                &trans
             >;
         };
