@@ -86,19 +86,19 @@
 
         default_layer {
             bindings = <
-&kp Q                    &kp W        &kp F         &kp P          &kp B        &kp J        &kp L          &mt LS(LBKT) U  &kp Z        &kp P
-&mt LS(DOUBLE_QUOTES) A  &hml LALT R  &hml LCTRL S  &hml LSHIFT T  &hml LGUI G  &hmr RGUI M  &hmr LSHIFT N  &hmr LCTRL E    &hmr LALT I  &mt LS(SEMI) O
-&mt LS(LBKT) Y           &kp X        &kp C         &kp D          &kp V        &kp K        &kp H          &kp COMMA       &kp DOT      &kp SLASH
-                                      &kp BSPC      &lt NAV TAB    &kp ESC      &kp DEL      &lt 3 SPACE    &lt 2 ENTER
+&kp Q           &kp W        &kp F        &kp P          &kp B        &kp J        &kp L          &mt LBKT U    &kp Z        &mt SLASH QUESTION
+&mt SQT A       &hml LALT R  &mt MINUS S  &hml LSHIFT T  &hml LGUI G  &hmr RGUI M  &hmr LSHIFT N  &hmr LCTRL E  &hmr LALT I  &mt SEMI O
+&mt LS(LBKT) Y  &kp X        &kp C        &kp D          &kp V        &kp K        &kp H          &kp COMMA     &kp DOT      &mt AMPERSAND LS(N0)
+                             &kp BSPC     &lt NAV TAB    &kp ESC      &kp DEL      &lt 3 SPACE    &lt 2 ENTER
             >;
         };
 
         navigation_layer {
             bindings = <
-&kp PG_UP  &kp HOME   &kp UP              &kp END         &kp LC(P)        &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)   &tabber    
-&kp PG_DN  &kp LEFT   &kp DOWN            &kp RIGHT       &kp LC(SEMI)     &kp LGUI   &sk LALT   &sk LCTRL  &sk LSHIFT  &kp LC(G)  
-&kp LC(N)  &kt LC(M)  &kp K_CONTEXT_MENU  &kp LC(PERIOD)  &kp LC(SLASH)    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)   &swapper   
-                      &trans     &trans      &trans     &trans     &trans     &trans
+&kp PG_UP  &kp HOME   &kp UP              &kp END         &kp LC(P)      &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)   &tabber
+&kp PG_DN  &kp LEFT   &kp DOWN            &kp RIGHT       &kp LC(SEMI)   &kp LGUI   &sk LALT   &sk LCTRL  &sk LSHIFT  &kp LC(G)
+&kp LC(N)  &kt LC(M)  &kp K_CONTEXT_MENU  &kp LC(PERIOD)  &kp LC(SLASH)  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)   &swapper
+                      &trans              &trans          &trans         &trans     &trans     &trans
             >;
         };
 
