@@ -95,9 +95,9 @@
 
         navigation_layer {
             bindings = <
-&kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)   &tabber    &kp PG_UP  &kp HOME   &kp UP              &kp END         &kp LC(P)
-&kp LGUI   &sk LALT   &sk LCTRL  &sk LSHIFT  &kp LC(G)  &kp PG_DN  &kp LEFT   &kp DOWN            &kp RIGHT       &kp LC(SEMI)
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)   &swapper   &kp LC(N)  &kt LC(M)  &kp K_CONTEXT_MENU  &kp LC(PERIOD)  &kp LC(SLASH)
+&kp PG_UP  &kp HOME   &kp UP              &kp END         &kp LC(P)        &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)   &tabber    
+&kp PG_DN  &kp LEFT   &kp DOWN            &kp RIGHT       &kp LC(SEMI)     &kp LGUI   &sk LALT   &sk LCTRL  &sk LSHIFT  &kp LC(G)  
+&kp LC(N)  &kt LC(M)  &kp K_CONTEXT_MENU  &kp LC(PERIOD)  &kp LC(SLASH)    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)   &swapper   
                       &trans     &trans      &trans     &trans     &trans     &trans
             >;
         };
