@@ -86,19 +86,19 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W        &kp F        &kp P          &kp B        &kp J        &kp L          &mt LBKT U    &kp Z        &mt SLASH QUESTION
-&mt SQT A       &hml LALT R  &mt MINUS S  &hml LSHIFT T  &hml LGUI G  &hmr RGUI M  &hmr LSHIFT N  &hmr LCTRL E  &hmr LALT I  &mt SEMI O
-&mt LS(LBKT) Y  &kp X        &kp C        &kp D          &kp V        &kp K        &kp H          &kp COMMA     &kp DOT      &mt AMPERSAND LS(N0)
-                             &kp BSPC     &lt NAV TAB    &kp ESC      &kp DEL      &lt 3 SPACE    &lt 2 ENTER
+&kp Q        &kp W        &kp F               &kp P          &kp B        &kp J        &kp L          &mt LBKT U            &kp Z        &mt SLASH QUESTION
+&mt SQT A    &hml LALT R  &mt LEFT_CONTROL S  &hml LSHIFT T  &hml LGUI G  &hmr RGUI M  &hmr LSHIFT N  &hmr RIGHT_CONTROL E  &hmr LALT I  &mt SEMI O
+&mt MINUS Y  &kp X        &kp C               &kp D          &kp V        &kp K        &kp H          &kp COMMA             &kp DOT      &mt AMPERSAND LS(N0)
+                          &kp BSPC            &lt NAV TAB    &kp ESC      &kp DEL      &lt 3 SPACE    &lt 2 ENTER
             >;
         };
 
         navigation_layer {
             bindings = <
-&kp PG_UP  &kp HOME   &kp UP              &kp END         &kp LC(P)      &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)   &tabber
-&kp PG_DN  &kp LEFT   &kp DOWN            &kp RIGHT       &kp LC(SEMI)   &kp LGUI   &sk LALT   &sk LCTRL  &sk LSHIFT  &kp LC(G)
-&kp LC(N)  &kt LC(M)  &kp K_CONTEXT_MENU  &kp LC(PERIOD)  &kp LC(SLASH)  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)   &swapper
-                      &trans              &trans          &trans         &trans     &trans     &trans
+&kp TAB         &kp LS(N2)  &kp UP      &kp DOLLAR     &kp EXCLAMATION  &mt RS(GRAVE) RS(N6)  &kp CARET             &kp LS(RIGHT_BRACKET)  &kp LC(R)          &tabber
+&kp HOME        &kp LEFT    &kp DOWN    &kp RIGHT      &kp END          &mt BACKSLASH SLASH   &sk LS(LEFT_BRACKET)  &sk LS(RIGHT_BRACKET)  &sk PIPE           &none
+&kp LEFT_SHIFT  &kt AT      &kp LS(N5)  &kp BACKSLASH  &kp LS(MINUS)    &kp LC(LEFT_BRACKET)  &kp LS(N9)            &kp LS(N0)             &kp RIGHT_BRACKET  &kp RIGHT_SHIFT
+                            &trans      &trans         &trans           &trans                &trans                &trans
             >;
         };
 
@@ -113,10 +113,10 @@
 
         numbers-fn_layer {
             bindings = <
-&kp F1  &kp F2   &kp F3   &kp F4   &kp F22  &kp MINUS  &kp N7  &kp N8  &kp N9  &kp STAR
-&kp F5  &kp F6   &kp F7   &kp F8   &kp F23  &kp PLUS   &kp N4  &kp N5  &kp N6  &kp N0
-&kp F9  &kp F10  &kp F11  &kp F12  &kp F24  &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp SLASH
-                 &trans   &trans   &trans   &trans     &trans  &trans
+&kp F1  &kp F2   &kp F3   &kp F4   &kp F22  &kp SLASH   &kp N7  &kp N8  &kp N9  &kp BACKSPACE
+&kp F5  &kp F6   &kp F7   &kp F8   &kp F23  &kp RBKT    &kp N4  &kp N5  &kp N6  &kp ENTER
+&kp F9  &kp F10  &kp F11  &kp F12  &kp F24  &kp LS(N0)  &kp N1  &kp N2  &kp N3  &kp LS(N7)
+                 &trans   &trans   &trans   &trans      &trans  &kp N0
             >;
         };
 
