@@ -95,19 +95,19 @@
 
         navigation_layer {
             bindings = <
-&kp TAB         &kp LS(N2)   &kp UP      &kp DOLLAR     &kp EXCLAMATION  &mt LS(GRAVE) GRAVE    &kp CARET   &kp LS(RIGHT_BRACKET)  &kp LC(R)            &tabber
-&kp HOME        &kp LEFT    &kp DOWN    &kp RIGHT      &kp END          &kp NON_US_BSLH        &kp RA(N7)  &kp RA(N0)             &kp LS(NON_US_BSLH)  &none
-&kp LEFT_SHIFT  &kt AT      &kp LS(N5)  &kp BACKSLASH  &kp LS(MINUS)    &kp RA(N8)             &kp LS(N8)  &kp LS(N9)             &kp RA(N9)           &kp RIGHT_SHIFT
-                            &trans      &trans         &trans           &trans                &kp LGUI                &trans
+&kp TAB         &kp LS(N2)  &kp UP      &kp DOLLAR     &kp EXCLAMATION  &mt LS(GRAVE) GRAVE  &kp CARET   &kp LS(RIGHT_BRACKET)  &kp RA(N7)           &tabber
+&kp HOME        &kp LEFT    &kp DOWN    &kp RIGHT      &kp END          &kp NON_US_BSLH      &kp RA(N8)  &kp RA(N9)             &kp LS(NON_US_BSLH)  &none
+&kp LEFT_SHIFT  &kt AT      &kp LS(N5)  &kp BACKSLASH  &kp LS(MINUS)    &kp RA(N5)           &kp LS(N8)  &kp LS(N9)             &kp RA(NUMBER_6)     &kp RIGHT_SHIFT
+                            &trans      &trans         &trans           &trans               &kp LGUI    &trans
             >;
         };
 
         symbols_layer {
             bindings = <
-&kp EXCL   &kp AT     &kp HASH    &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp STAR   &kp LPAR   &kp RPAR
-&kp EQUAL  &kp PLUS   &kp MINUS   &kp UNDER   &kp LBKT     &kp RBKT   &sk LSHIFT     &sk LCTRL  &sk LALT   &kp SQT
-&kp PIPE   &kp GRAVE  &caps_word  &kp LPAR    &kp LBRC     &kp RBRC   &kp RPAR       &trans     &kp TILDE  &kp BACKSLASH
-                      &trans      &trans      &trans       &trans     &trans         &trans
+&kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp N7        &kp N8      &kp N9      &kp N0      &kp N6
+&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(RBKT)  &sk LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp LS(N6)
+&kp RA(N1)  &kp RA(N2)  &kp RA(N3)  &kp RA(N4)  &kp RA(N5)  &kp RA(N7)    &kp RA(N8)  &kp RA(N9)  &kp RA(N0)  &kp RA(N6)
+                        &trans      &trans      &trans      &trans        &trans      &trans
             >;
         };
 
